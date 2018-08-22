@@ -7,7 +7,7 @@ import { ApolloProvider } from 'react-apollo';
 import ArticleList from './ArticleList';
 
 const link = new HttpLink({
-  uri: 'https://api.graphcms.com/simple/v1/cj98b2tds1fha0115h7csyj5d',
+  uri: 'https://api-apeast.graphcms.com/v1/cjl50nssu0ek601g1in5bstrf/master',
 });
 const cache = new InMemoryCache();
 const client = new ApolloClient({ link, cache });

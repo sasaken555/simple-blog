@@ -25,7 +25,7 @@ const ArticleItem = ({ article }) => (
 
 const query = gql`
 {
-  allArticles(orderBy: date_ASC) {
+  articles(orderBy: date_ASC) {
     id
     title
     date
